@@ -973,7 +973,7 @@ main
   .photo-block:nth-of-type(1)
   .flip-layer {
   animation-duration: 3s;
-  animation-delay: 1s;
+  animation-delay: 1.4s;
 }
 main
   #about
@@ -982,7 +982,7 @@ main
   .photo-block:nth-of-type(2)
   .flip-layer {
   animation-duration: 3.2s;
-  animation-delay: 1.2s;
+  animation-delay: 1.3s;
 }
 main
   #about
