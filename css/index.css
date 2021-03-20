@@ -852,7 +852,7 @@ main #about .portfolio-intro-container .about-photo-grid {
   width: 17rem;
 }
 main #about .portfolio-intro-container .about-photo-grid .photo {
-  filter: saturate(0);
+  /* filter: saturate(0); */
   left: 0;
   position: absolute;
   top: 0%;
@@ -972,8 +972,8 @@ main
   .about-photo-grid
   .photo-block:nth-of-type(1)
   .flip-layer {
-  animation-duration: 3s;
-  animation-delay: 1.4s;
+  /* animation-duration: 1.5s; */
+  /* animation-delay: 1s; */
 }
 main
   #about
@@ -981,8 +981,8 @@ main
   .about-photo-grid
   .photo-block:nth-of-type(2)
   .flip-layer {
-  animation-duration: 3.2s;
-  animation-delay: 1.3s;
+  animation-duration: 2.5s;
+  animation-delay: 1.7s;
 }
 main
   #about
@@ -990,8 +990,8 @@ main
   .about-photo-grid
   .photo-block:nth-of-type(3)
   .flip-layer {
-  animation-duration: 2.5s;
-  animation-delay: 0.5s;
+  animation-duration: 1.5s;
+  animation-delay: 1.3s;
 }
 main
   #about
@@ -999,8 +999,8 @@ main
   .about-photo-grid
   .photo-block:nth-of-type(4)
   .flip-layer {
-  animation-duration: 2.8s;
-  animation-delay: 0.2s;
+  animation-duration: 2.3s;
+  animation-delay: 0.3s;
 }
 main
   #about
@@ -1008,8 +1008,8 @@ main
   .about-photo-grid
   .photo-block:nth-of-type(5)
   .flip-layer {
-  animation-duration: 3s;
-  animation-delay: 1.3s;
+  animation-duration: 1.2s;
+  animation-delay: 0.8s;
 }
 main
   #about
@@ -1017,8 +1017,8 @@ main
   .about-photo-grid
   .photo-block:nth-of-type(8)
   .flip-layer {
-  animation-duration: 2.7s;
-  animation-delay: 1.5s;
+  animation-duration: 1.0s;
+  animation-delay: 1.0s;
 }
 main
   #about
@@ -1026,7 +1026,7 @@ main
   .about-photo-grid
   .photo-block:nth-of-type(9)
   .flip-layer {
-  animation-duration: 3.3s;
+  animation-duration: 1.6s;
   animation-delay: 0.8s;
 }
 main #about .section-intro:last-of-type p {
