@@ -983,8 +983,8 @@ main
   .flip-layer {
   animation-duration: 2.5s;
   -webkit-animation-duration: 2.5s;
-  -moz-animation-duration: 5s;
-  -o-animation-duration: 5s;
+  -moz-animation-duration: 10s;
+  -o-animation-duration: 10s;
   animation-delay: 1.7s;
 }
 main
@@ -995,8 +995,8 @@ main
   .flip-layer {
   animation-duration: 1.5s;
   -webkit-animation-duration: 1.5s;
-  -moz-animation-duration: 4s;
-  -o-animation-duration: 4s;
+  -moz-animation-duration: 8s;
+  -o-animation-duration: 8s;
   animation-delay: 1.3s;
 }
 main
@@ -1007,8 +1007,8 @@ main
   .flip-layer {
   animation-duration: 2.3s;
   -webkit-animation-duration: 2.3s;
-  -moz-animation-duration: 4.5s;
-  -o-animation-duration: 4.5s;
+  -moz-animation-duration: 9s;
+  -o-animation-duration: 9s;
   animation-delay: 0.3s;
 }
 main
@@ -1019,8 +1019,8 @@ main
   .flip-layer {
   animation-duration: 1.2s;
   -webkit-animation-duration: 1.2s;
-  -moz-animation-duration: 3s;
-  -o-animation-duration: 3s;
+  -moz-animation-duration: 6s;
+  -o-animation-duration: 6s;
   animation-delay: 0.8s;
 }
 main
@@ -1031,8 +1031,8 @@ main
   .flip-layer {
   animation-duration: 1s;
   -webkit-animation-duration: 1s;
-  -moz-animation-duration: 2s;
-  -o-animation-duration: 2s;
+  -moz-animation-duration: 4s;
+  -o-animation-duration: 4s;
   animation-delay: 1s;
 }
 main
@@ -1043,8 +1043,8 @@ main
   .flip-layer {
   animation-duration: 1.6s;
   -webkit-animation-duration: 1.6s;
-  -moz-animation-duration: 3.5s;
-  -o-animation-duration: 3.5s;
+  -moz-animation-duration: 7s;
+  -o-animation-duration: 7s;
   animation-delay: 0.8s;
 }
 main #about .section-intro:last-of-type p {

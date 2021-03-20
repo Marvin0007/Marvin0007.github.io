@@ -330,23 +330,23 @@ const getTouches = (e) => e.touches,
     Math.abs(n) > Math.abs(o) && (n > 0 ? nextAction() : previousAction()),
       (xDown = null),
       (yDown = null);
-  },
-  awaitProjectLoad = setInterval(() => {
-    projectDataLoading ||
-      (clearInterval(awaitProjectLoad),
-      nextButton.addEventListener("click", nextAction, !1),
-      prevButton.addEventListener("click", previousAction, !1),
-      PROJECT_CARDS_CONTAINER.addEventListener(
-        "touchstart",
-        handleTouchStart,
-        !1
-      ),
-      PROJECT_CARDS_CONTAINER.addEventListener(
-        "touchmove",
-        handleTouchMove,
-        !1
-      ));
-  }, 500);
+  };
+  // awaitProjectLoad = setInterval(() => {
+  //   projectDataLoading ||
+  //     (clearInterval(awaitProjectLoad),
+  //     nextButton.addEventListener("click", nextAction, !1),
+  //     prevButton.addEventListener("click", previousAction, !1),
+  //     PROJECT_CARDS_CONTAINER.addEventListener(
+  //       "touchstart",
+  //       handleTouchStart,
+  //       !1
+  //     ),
+  //     PROJECT_CARDS_CONTAINER.addEventListener(
+  //       "touchmove",
+  //       handleTouchMove,
+  //       !1
+  //     ));
+  // }, 500);
 let nameValid = !1,
   emailValid = !1,
   messageValid = !1;
