@@ -321,8 +321,8 @@ body ul {
   z-index: 1;
 }
 #splash-page #animated-logo-wrapper .animation-wrapper {
-  animation-delay: 2.8s;
-  animation-duration: 1.5s;
+  animation-delay: 3.0s;
+  animation-duration: 1.4s;
   animation-fill-mode: forwards;
   animation-iteration-count: 1;
   animation-timing-function: ease-out;
@@ -383,8 +383,8 @@ body ul {
   .animation-wrapper
   .logo-angles-ne
   div:nth-of-type(1) {
-  animation-delay: 1.0s;
-  animation-duration: 1s;
+  animation-delay: 1.2s;
+  animation-duration: 0.6s;
   animation-fill-mode: forwards;
   animation-iteration-count: 1;
   background: #ce3434;
@@ -454,19 +454,19 @@ body ul {
   transform: rotate(45deg);
   width: 34.799px;
 }
-/* #splash-page
+#splash-page
   #animated-logo-wrapper
   .animation-wrapper
   .logo-diamonds
   div:nth-of-type(1) {
-  animation-delay: 2.0s;
-  animation-duration: 0.3s;
+  animation-delay: 2.3s;
+  animation-duration: 0.4s;
   animation-fill-mode: forwards;
   animation-iteration-count: 1;
-  background: #ffffff;
+  /* background: #ffffff; */
   left: 66.29px;
   top: 350px;
-} */
+}
 #splash-page
   #animated-logo-wrapper
   .animation-wrapper
@@ -491,7 +491,7 @@ body ul {
   }
 }
 #splash-page .main-logo {
-  animation-delay: 0s;
+  animation-delay: 3.7s;
   animation-duration: 1s;
   animation-fill-mode: forwards;
   animation-iteration-count: 1;
