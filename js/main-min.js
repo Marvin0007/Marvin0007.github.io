@@ -7,8 +7,10 @@ function redirectHttpToHttps() {
 
   window.location = httpsURL;
 }
+if(window.location.href.slice(0,5) !== "https"){
+  redirectHttpToHttps();
+}
 
-redirectHttpToHttps();
 var refer = "C:/Users/Marvin/Desktop/Personal Web/Main Template/images"
 let windowDimensions = { width: window.innerWidth, height: window.innerHeight };
 window.addEventListener(
