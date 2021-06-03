@@ -1,11 +1,11 @@
 // URLS
 function redirectHttpToHttps() {
 
-var httpURL= window.location.hostname + window.location.pathname;
+  var httpURL = window.location.hostname + window.location.pathname;
 
-var httpsURL=https+ "://" + httpURL;
+  var httpsURL = "https://" + httpURL;
 
-window.location = httpsURL;
+  window.location = httpsURL;
 }
 
 redirectHttpToHttps();
@@ -232,7 +232,7 @@ let projectDataLoading = !0;
 const LOADING_SPINNER = document.querySelector("#spinner-container"),
   COSMIC_API_KEY = "N6C2ydBXJRnJGr5xKPQfW16ea2qANsnZoNgLzW5hXvAUIjN8FY",
   projectData = `https://api.cosmicjs.com/v1/mwwdd-blog/objects?pretty=true&hide_metafields=true&type=projects&read_key=${COSMIC_API_KEY}&limit=20&props=slug,title,content,metadata,`,
-  fetchProjectData = async(e) => {
+  fetchProjectData = async (e) => {
     try {
       const t = await fetch(e),
         // a = await t.json();
