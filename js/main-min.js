@@ -1,15 +1,15 @@
 // URLS
-function redirectHttpToHttps() {
+// function redirectHttpToHttps() {
 
-  var httpURL = window.location.hostname + window.location.pathname;
+//   var httpURL = window.location.hostname + window.location.pathname;
 
-  var httpsURL = "https://" + httpURL;
+//   var httpsURL = "https://" + httpURL;
 
-  window.location = httpsURL;
-}
-if(window.location.href.slice(0,5) !== "https"){
-  redirectHttpToHttps();
-}
+//   window.location = httpsURL;
+// }
+// if(window.location.href.slice(0,5) !== "https"){
+//   redirectHttpToHttps();
+// }
 
 var refer = "C:/Users/Marvin/Desktop/Personal Web/Main Template/images"
 let windowDimensions = { width: window.innerWidth, height: window.innerHeight };
@@ -246,307 +246,129 @@ const LOADING_SPINNER = document.querySelector("#spinner-container"),
               "content": "<p>This project is comprised of three Important Things. Drag and Drop, Virtualized DOM and Search Bar&nbsp;</p>",
               "metadata": {
                 "under_development": false,
-                // "github_url": "https://github.com/m87wheeler/luxury-real-estate-business-template",
-                "project_url": "http://workflow.mohsism.me",
-                "lang_svelte": {
-                  "url": "https://cdn.cosmicjs.com/2fd0d330-0df7-11eb-9f4c-e15314e49fa9-svelte.png",
-                  "imgix_url": "https://imgix.cosmicjs.com/2fd0d330-0df7-11eb-9f4c-e15314e49fa9-svelte.png"
+                "project_url": "http://flow.mohsism.me",
+                "lang_react": {
+                  "url": "../images/icons/react.png",
+                  "imgix_url": "./images/icons/react.png"
                 },
-                "lang_javascript": {
-                  "url": "https://cdn.cosmicjs.com/186a5ca0-f1c0-11ea-a3de-692d5982216c-js.png",
-                  "imgix_url": "https://imgix.cosmicjs.com/186a5ca0-f1c0-11ea-a3de-692d5982216c-js.png"
+                "lang_react_window": {
+                  "url": "./images/icons/react-window.png",
+                  "imgix_url": "./images/icons/react-window.png"
                 },
-                "lang_scss": {
-                  "url": "https://cdn.cosmicjs.com/187706d0-f1c0-11ea-a3de-692d5982216c-sass.png",
-                  "imgix_url": "https://imgix.cosmicjs.com/187706d0-f1c0-11ea-a3de-692d5982216c-sass.png"
+                "lang_react_dnd": {
+                  "url": "./images/icons/react-beautiful-dnd.gif",
+                  "imgix_url": "./images/icons/react-beautiful-dnd.gif",
                 },
-                "lang_inkscape": {
-                  "url": "https://cdn.cosmicjs.com/18509310-f1c0-11ea-a3de-692d5982216c-inkscape.png",
-                  "imgix_url": "https://imgix.cosmicjs.com/18509310-f1c0-11ea-a3de-692d5982216c-inkscape.png"
+                "lang_express": {
+                  "url": "../images/icons/expressjs.png",
+                  "imgix_url": "./images/icons/expressjs.png"
                 },
-                "lang_figma": {
-                  "url": "https://cdn.cosmicjs.com/18479260-f1c0-11ea-a3de-692d5982216c-figma.png",
-                  "imgix_url": "https://imgix.cosmicjs.com/18479260-f1c0-11ea-a3de-692d5982216c-figma.png"
+                "lang_react": {
+                  "url": "../images/icons/react.png",
+                  "imgix_url": "./images/icons/react.png"
+                },
+                "lang_node": {
+                  "url": "../images/icons/nodejs.svg",
+                  "imgix_url": "./images/icons/nodejs.svg"
+                },
+                "lang_mysql": {
+                  "url": "../images/icons/mysql.svg",
+                  "imgix_url": "./images/icons/mysql.svg"
+                },
+                "lang_material_UI": {
+                  "url": "../images/icons/material-ui.svg",
+                  "imgix_url": "./images/icons/material-ui.svg"
                 },
                 "project_icon": {
-                  "url": "https://cdn.cosmicjs.com/8fd36090-0df7-11eb-9f4c-e15314e49fa9-logo.png",
-                  "imgix_url": "https://imgix.cosmicjs.com/8fd36090-0df7-11eb-9f4c-e15314e49fa9-logo.png"
+                  "url": "./images/icons/workflow.png",
+                  "imgix_url": "./images/icons/workflow.png"
                 },
                 "project_screenshot": {
-                  "url": "https://cdn.cosmicjs.com/98ed64f0-0df7-11eb-9f4c-e15314e49fa9-Mockup-UI.png",
-                  "imgix_url": "https://imgix.cosmicjs.com/98ed64f0-0df7-11eb-9f4c-e15314e49fa9-Mockup-UI.png"
+                  "url": "./images/icons/workflow.png",
+                  "imgix_url": "./images/icons/workflow.png"
                 },
                 "project_type": "Company Website"
               }
             },
             {
-              "slug": "ripple-fitness",
-              "title": "Ripple Fitness",
-              "content": "<p>This client runs an online fitness subscription program, powered by Trainerize. They wanted a website where they could show their potential customers what Ripple Fitness was all about, and also link them to the platform.</p><p><br></p><p>The website makes use of Gatsby, a super fast static site platform, and Contentful CMS (content management system) to allow the client to manage their own site with little need for help from a developer.</p>",
+              "slug": "Chat",
+              "title": "Chat",
+              "content": "<p>Chat App for Web was built to facilitate Customer-Retailers Conversation.</p>",
               "metadata": {
-                "github_url": "https://github.com/m87wheeler/ripple-fitness",
-                "project_url": "https://ripple-fitness-mwwdd.netlify.app/",
-                "lang_html5": {
-                  "url": "https://cdn.cosmicjs.com/1869e770-f1c0-11ea-a3de-692d5982216c-html5.png",
-                  "imgix_url": "https://imgix.cosmicjs.com/1869e770-f1c0-11ea-a3de-692d5982216c-html5.png"
+                "under_development": false,
+                "project_url": "http://contact.mohsism.me",
+                "lang_react": {
+                  "url": "../images/icons/react.png",
+                  "imgix_url": "./images/icons/react.png"
                 },
-                "lang_gatsby": {
-                  "url": "https://cdn.cosmicjs.com/1871afa0-f1c0-11ea-a3de-692d5982216c-gatsby.png",
-                  "imgix_url": "https://imgix.cosmicjs.com/1871afa0-f1c0-11ea-a3de-692d5982216c-gatsby.png"
+                "lang_socket_IO": {
+                  "url": "./images/icons/socketio.png",
+                  "imgix_url": "./images/icons/socketio.png"
                 },
-                "lang_styled_components": {
-                  "url": "https://cdn.cosmicjs.com/186f3ea0-f1c0-11ea-a3de-692d5982216c-styled-components.png",
-                  "imgix_url": "https://imgix.cosmicjs.com/186f3ea0-f1c0-11ea-a3de-692d5982216c-styled-components.png"
+                "lang_react": {
+                  "url": "../images/icons/react.png",
+                  "imgix_url": "./images/icons/react.png"
                 },
-                "lang_contentful": {
-                  "url": "https://cdn.cosmicjs.com/182b30c0-f1c0-11ea-a3de-692d5982216c-contentful.png",
-                  "imgix_url": "https://imgix.cosmicjs.com/182b30c0-f1c0-11ea-a3de-692d5982216c-contentful.png"
-                },
-                "lang_figma": {
-                  "url": "https://cdn.cosmicjs.com/18479260-f1c0-11ea-a3de-692d5982216c-figma.png",
-                  "imgix_url": "https://imgix.cosmicjs.com/18479260-f1c0-11ea-a3de-692d5982216c-figma.png"
-                },
-                "lang_inkscape": {
-                  "url": "https://cdn.cosmicjs.com/18509310-f1c0-11ea-a3de-692d5982216c-inkscape.png",
-                  "imgix_url": "https://imgix.cosmicjs.com/18509310-f1c0-11ea-a3de-692d5982216c-inkscape.png"
-                },
-                "lang_cosmic": {
-                  "url": null,
-                  "imgix_url": null
-                },
-                "lang_typescript": {
-                  "url": null,
-                  "imgix_url": null
-                },
-                "lang_scss": {
-                  "url": null,
-                  "imgix_url": null
-                },
-                "lang_reactjs": {
-                  "url": null,
-                  "imgix_url": null
-                },
-                "lang_javascript": {
-                  "url": null,
-                  "imgix_url": null
-                },
-                "lang_css3": {
-                  "url": null,
-                  "imgix_url": null
+                "lang_node": {
+                  "url": "../images/icons/nodejs.svg",
+                  "imgix_url": "./images/icons/nodejs.svg"
                 },
                 "project_icon": {
-                  "url": "https://cdn.cosmicjs.com/21738860-f1d1-11ea-a3de-692d5982216c-main-logo.png",
-                  "imgix_url": "https://imgix.cosmicjs.com/21738860-f1d1-11ea-a3de-692d5982216c-main-logo.png"
+                  "url": "./images/icons/chat.ico",
+                  "imgix_url": "./images/icons/chat.ico"
                 },
                 "project_screenshot": {
-                  "url": "https://cdn.cosmicjs.com/1c852c60-ee9c-11ea-a3de-692d5982216c-ripple-fitness.png",
-                  "imgix_url": "https://imgix.cosmicjs.com/1c852c60-ee9c-11ea-a3de-692d5982216c-ripple-fitness.png"
+                  "url": "./images/icons/workflow.png",
+                  "imgix_url": "./images/icons/workflow.png"
                 },
-                "project_type": "Company Website",
-                "under_development": true
+                "project_type": "Component"
               }
             },
             {
-              "slug": "blue-interiors",
-              "title": "Blue Interiors",
-              "content": "<p>Blue Interiors is a London based freelance interior design company specialising in transitional design and a focus on function.</p><p>This site needed to showcase the work of the client and is very image heavy. The CMS used (CosmicJS) does a great job of compressing the images and reducing load time and file size, offering a better user experience.</p><p>The client is also able to track their sites performance with the integrated Google Analytics tool.</p>",
+              "slug": "WorkPanel",
+              "title": "WorkPanel",
+              "content": "<p>This was a further extension to Workflow where CRUD Operations were needed on Nested Tables with multiple Search Bars and A Work Panel divided in Four Tabs&nbsp;</p>",
               "metadata": {
+                "under_development": false,
+                "project_url": "http://panel.mohsism.me",
+                "lang_react": {
+                  "url": "../images/icons/react.png",
+                  "imgix_url": "./images/icons/react.png"
+                },
+                "lang_express": {
+                  "url": "../images/icons/expressjs.png",
+                  "imgix_url": "./images/icons/expressjs.png"
+                },
+                "lang_react": {
+                  "url": "../images/icons/react.png",
+                  "imgix_url": "./images/icons/react.png"
+                },
+                "lang_node": {
+                  "url": "../images/icons/nodejs.svg",
+                  "imgix_url": "./images/icons/nodejs.svg"
+                },
+                "lang_mysql": {
+                  "url": "../images/icons/mysql.svg",
+                  "imgix_url": "./images/icons/mysql.svg"
+                },
+                "lang_material_UI": {
+                  "url": "../images/icons/material-ui.svg",
+                  "imgix_url": "./images/icons/material-ui.svg"
+                },
                 "project_icon": {
-                  "url": "https://cdn.cosmicjs.com/7c36f4e0-f1c1-11ea-a3de-692d5982216c-logo-blue.png",
-                  "imgix_url": "https://imgix.cosmicjs.com/7c36f4e0-f1c1-11ea-a3de-692d5982216c-logo-blue.png"
+                  "url": "./images/icons/workflow.png",
+                  "imgix_url": "./images/icons/workflow.png"
                 },
                 "project_screenshot": {
-                  "url": "https://cdn.cosmicjs.com/84b5cab0-f1c1-11ea-a3de-692d5982216c-Screenshot-from-2020-09-07-08-29-15.png",
-                  "imgix_url": "https://imgix.cosmicjs.com/84b5cab0-f1c1-11ea-a3de-692d5982216c-Screenshot-from-2020-09-07-08-29-15.png"
+                  "url": "./images/icons/workflow.png",
+                  "imgix_url": "./images/icons/workflow.png"
                 },
-                "project_type": "Company Website",
-                "lang_html5": {
-                  "url": "https://cdn.cosmicjs.com/1869e770-f1c0-11ea-a3de-692d5982216c-html5.png",
-                  "imgix_url": "https://imgix.cosmicjs.com/1869e770-f1c0-11ea-a3de-692d5982216c-html5.png"
-                },
-                "lang_reactjs": {
-                  "url": "https://cdn.cosmicjs.com/187691a0-f1c0-11ea-a3de-692d5982216c-react.png",
-                  "imgix_url": "https://imgix.cosmicjs.com/187691a0-f1c0-11ea-a3de-692d5982216c-react.png"
-                },
-                "lang_styled_components": {
-                  "url": "https://cdn.cosmicjs.com/186f3ea0-f1c0-11ea-a3de-692d5982216c-styled-components.png",
-                  "imgix_url": "https://imgix.cosmicjs.com/186f3ea0-f1c0-11ea-a3de-692d5982216c-styled-components.png"
-                },
-                "lang_cosmic": {
-                  "url": "https://cdn.cosmicjs.com/54bd5310-f1c0-11ea-a3de-692d5982216c-cosmicjs.png",
-                  "imgix_url": "https://imgix.cosmicjs.com/54bd5310-f1c0-11ea-a3de-692d5982216c-cosmicjs.png"
-                },
-                "lang_figma": {
-                  "url": "https://cdn.cosmicjs.com/18479260-f1c0-11ea-a3de-692d5982216c-figma.png",
-                  "imgix_url": "https://imgix.cosmicjs.com/18479260-f1c0-11ea-a3de-692d5982216c-figma.png"
-                },
-                "lang_inkscape": {
-                  "url": "https://cdn.cosmicjs.com/18509310-f1c0-11ea-a3de-692d5982216c-inkscape.png",
-                  "imgix_url": "https://imgix.cosmicjs.com/18509310-f1c0-11ea-a3de-692d5982216c-inkscape.png"
-                },
-                "lang_contentful": {
-                  "url": null,
-                  "imgix_url": null
-                },
-                "lang_gatsby": {
-                  "url": null,
-                  "imgix_url": null
-                },
-                "lang_typescript": {
-                  "url": null,
-                  "imgix_url": null
-                },
-                "lang_scss": {
-                  "url": null,
-                  "imgix_url": null
-                },
-                "lang_javascript": {
-                  "url": null,
-                  "imgix_url": null
-                },
-                "lang_css3": {
-                  "url": null,
-                  "imgix_url": null
-                },
-                "github_url": "https://github.com/m87wheeler/blue-interiors-june-20",
-                "project_url": "https://www.blue-interiors.com"
+                "project_type": "Company Website"
               }
             },
-            {
-              "slug": "photographer-portfolio",
-              "title": "Photographer Portfolio",
-              "content": "<p>This website was made to test out CosmicJS CMS as a legitimate photo gallery host. The site is built on ReactJS and is fully manageable by anyone.</p><p><br></p><p>This was my first time trying to create a photo gallery using both flexbox and JS, and the aim was to make sure that the images loaded both horizontally (to ensure the most recent image was first) and that there was no blank space under each image (which would happen with a flexbox only solution).</p><p><br></p><p>I&#39;d liked to have done this using only CSS but I&#39;m happy with the result.</p>",
-              "metadata": {
-                "github_url": "https://github.com/m87wheeler/photographer-portfolio",
-                "project_url": "https://photography-portfolio-mwwdd.netlify.app/",
-                "lang_html5": {
-                  "url": "https://cdn.cosmicjs.com/1869e770-f1c0-11ea-a3de-692d5982216c-html5.png",
-                  "imgix_url": "https://imgix.cosmicjs.com/1869e770-f1c0-11ea-a3de-692d5982216c-html5.png"
-                },
-                "lang_reactjs": {
-                  "url": "https://cdn.cosmicjs.com/187691a0-f1c0-11ea-a3de-692d5982216c-react.png",
-                  "imgix_url": "https://imgix.cosmicjs.com/187691a0-f1c0-11ea-a3de-692d5982216c-react.png"
-                },
-                "lang_cosmic": {
-                  "url": "https://cdn.cosmicjs.com/54bd5310-f1c0-11ea-a3de-692d5982216c-cosmicjs.png",
-                  "imgix_url": "https://imgix.cosmicjs.com/54bd5310-f1c0-11ea-a3de-692d5982216c-cosmicjs.png"
-                },
-                "lang_styled_components": {
-                  "url": "https://cdn.cosmicjs.com/186f3ea0-f1c0-11ea-a3de-692d5982216c-styled-components.png",
-                  "imgix_url": "https://imgix.cosmicjs.com/186f3ea0-f1c0-11ea-a3de-692d5982216c-styled-components.png"
-                },
-                "lang_figma": {
-                  "url": "https://cdn.cosmicjs.com/18479260-f1c0-11ea-a3de-692d5982216c-figma.png",
-                  "imgix_url": "https://imgix.cosmicjs.com/18479260-f1c0-11ea-a3de-692d5982216c-figma.png"
-                },
-                "lang_contentful": {
-                  "url": null,
-                  "imgix_url": null
-                },
-                "lang_inkscape": {
-                  "url": null,
-                  "imgix_url": null
-                },
-                "lang_gatsby": {
-                  "url": null,
-                  "imgix_url": null
-                },
-                "lang_typescript": {
-                  "url": null,
-                  "imgix_url": null
-                },
-                "lang_scss": {
-                  "url": null,
-                  "imgix_url": null
-                },
-                "lang_javascript": {
-                  "url": null,
-                  "imgix_url": null
-                },
-                "lang_css3": {
-                  "url": null,
-                  "imgix_url": null
-                },
-                "project_icon": {
-                  "url": "https://cdn.cosmicjs.com/37015260-ed0e-11ea-a61c-9d54bbbbeb4a-Screenshot-from-2020-09-02-12-19-12.png",
-                  "imgix_url": "https://imgix.cosmicjs.com/37015260-ed0e-11ea-a61c-9d54bbbbeb4a-Screenshot-from-2020-09-02-12-19-12.png"
-                },
-                "project_screenshot": {
-                  "url": "https://cdn.cosmicjs.com/37015260-ed0e-11ea-a61c-9d54bbbbeb4a-Screenshot-from-2020-09-02-12-19-12.png",
-                  "imgix_url": "https://imgix.cosmicjs.com/37015260-ed0e-11ea-a61c-9d54bbbbeb4a-Screenshot-from-2020-09-02-12-19-12.png"
-                },
-                "project_type": "Personal Project"
-              }
-            },
-            {
-              "slug": "my-first-portfolio",
-              "title": "My First Portfolio",
-              "content": "<p>This site was my first attempt at a portfolio for my work.&nbsp;</p><p>I purposefully made this site using only HTML, CSS (well...SCSS), and JavaScript. I often find myself reaching for React and wanted a place where I could continuously practice JavaScript. What better place that my own portfolio, eh?</p><p>The animation for the main logo is 100% CSS, and JavaScript is mainly used for the AJAX calls and dynamically generating the project content - along with a few other tidbits.</p><p>Unfortunately, I&#39;ve had to re-purpose the Cosmic API so the project section is empty...but you can just take a look at that here!&nbsp;</p>",
-              "metadata": {
-                "github_url": "https://github.com/m87wheeler/Martin-Wheeler-Web-Portfolio-Version-1",
-                "project_url": "http://mwwdd-portfolio-previous.netlify.app",
-                "lang_html5": {
-                  "url": "https://cdn.cosmicjs.com/1869e770-f1c0-11ea-a3de-692d5982216c-html5.png",
-                  "imgix_url": "https://imgix.cosmicjs.com/1869e770-f1c0-11ea-a3de-692d5982216c-html5.png"
-                },
-                "lang_scss": {
-                  "url": "https://cdn.cosmicjs.com/187706d0-f1c0-11ea-a3de-692d5982216c-sass.png",
-                  "imgix_url": "https://imgix.cosmicjs.com/187706d0-f1c0-11ea-a3de-692d5982216c-sass.png"
-                },
-                "lang_javascript": {
-                  "url": "https://cdn.cosmicjs.com/186a5ca0-f1c0-11ea-a3de-692d5982216c-js.png",
-                  "imgix_url": "https://imgix.cosmicjs.com/186a5ca0-f1c0-11ea-a3de-692d5982216c-js.png"
-                },
-                "lang_cosmic": {
-                  "url": "https://cdn.cosmicjs.com/54bd5310-f1c0-11ea-a3de-692d5982216c-cosmicjs.png",
-                  "imgix_url": "https://imgix.cosmicjs.com/54bd5310-f1c0-11ea-a3de-692d5982216c-cosmicjs.png"
-                },
-                "lang_figma": {
-                  "url": "https://cdn.cosmicjs.com/18479260-f1c0-11ea-a3de-692d5982216c-figma.png",
-                  "imgix_url": "https://imgix.cosmicjs.com/18479260-f1c0-11ea-a3de-692d5982216c-figma.png"
-                },
-                "lang_inkscape": {
-                  "url": "https://cdn.cosmicjs.com/18509310-f1c0-11ea-a3de-692d5982216c-inkscape.png",
-                  "imgix_url": "https://imgix.cosmicjs.com/18509310-f1c0-11ea-a3de-692d5982216c-inkscape.png"
-                },
-                "lang_contentful": {
-                  "url": null,
-                  "imgix_url": null
-                },
-                "lang_gatsby": {
-                  "url": null,
-                  "imgix_url": null
-                },
-                "lang_typescript": {
-                  "url": null,
-                  "imgix_url": null
-                },
-                "lang_styled_components": {
-                  "url": null,
-                  "imgix_url": null
-                },
-                "lang_reactjs": {
-                  "url": null,
-                  "imgix_url": null
-                },
-                "lang_css3": {
-                  "url": null,
-                  "imgix_url": null
-                },
-                "project_icon": {
-                  "url": "https://cdn.cosmicjs.com/07648090-f1f5-11ea-a3de-692d5982216c-mwwdd-logo-large.png",
-                  "imgix_url": "https://imgix.cosmicjs.com/07648090-f1f5-11ea-a3de-692d5982216c-mwwdd-logo-large.png"
-                },
-                "project_screenshot": {
-                  "url": "https://cdn.cosmicjs.com/1fc0ec00-f1f5-11ea-a3de-692d5982216c-Screenshot-from-2020-09-08-18-02-32.png",
-                  "imgix_url": "https://imgix.cosmicjs.com/1fc0ec00-f1f5-11ea-a3de-692d5982216c-Screenshot-from-2020-09-08-18-02-32.png"
-                },
-                "project_type": "Portfolio Website"
-              }
-            }
           ],
-          "total": 5,
-          "limit": 20
+          "total": 3,
+          "limit": 10
         };
       console.log(a);
       JSON.parse(JSON.stringify(a)).objects.forEach((e, t) => {
